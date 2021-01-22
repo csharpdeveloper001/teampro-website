@@ -1,0 +1,82 @@
+.header-top {
+  height: 42px;
+  background-color: #f1f1f1;
+  padding: 7px 0;
+}
+.header-left {
+  width: 320px;
+}
+
+.header-main {
+  height: 100px;
+}
+
+.header-scroll-main {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 55px;
+}
+
+.header-main-navbar {
+  padding: 10px 0;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-all {
+  color: white;
+  background: linear-gradient(to right, #0683c8, #294b8d);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.button-all:hover {
+  background: #294b8d;
+}
+
+.header-button {
+  margin: 0 27px 0 50px;
+  padding: 14px 10px;
+}
+
+.header-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+.header-search:hover {
+  color: white;
+  border-color: white;
+  background-color: #008dd2;
+}
+
+.section-bottom {
+  padding: 16px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rounded-full-s {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.rounded-full:hover .rounded-full-s {
+  border-color: #008dd2;
+}
+
+.w-full-section {
+  width: 100%;
+}
